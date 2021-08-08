@@ -13,7 +13,9 @@ async fn index(web::Path((id, name)): web::Path<(u32, String)>) -> impl Responde
 	format!("Hello {}! id:{}", name, id)
 }
 
-// curl http://127.0.0.1:8080/1/masaru/index.html
+/*
+curl http://127.0.0.1:8080/1/masaru/index.html
+*/
 impl Application {
 	/// `Application` の新しインスタンスを作成します。
 	///
