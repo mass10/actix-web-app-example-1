@@ -1,0 +1,14 @@
+{
+	"[rust]": {
+		"editor.autoIndent": "advanced",
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+	},
+	"[bat]": {
+		"files.encoding": "shiftjis"
+	},
+	"files.associations": {
+		"*.rs.X": "rust"
+	}
+}
