@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 actix-web = "*"
+sqlite = "*"
+uuid = { version = "^0.6", features = ["v4"] }
