@@ -1,4 +1,4 @@
 @SETLOCAL
 @ECHO OFF
 
-CALL cargo run --debug
+CALL cargo run
